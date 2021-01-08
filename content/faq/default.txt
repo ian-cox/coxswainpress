@@ -1,0 +1,5 @@
+Title: FAQ
+
+----
+
+Text: [{"content":{"level":"h1","text":"FAQs"},"id":"3d237c23-c64b-45d9-9174-1bc8adaea42e","isHidden":false,"type":"heading"},{"content":{"level":"h2","text":"How much is shipping? "},"id":"a641760d-9f3c-41cc-9874-e91fa01a3cdd","isHidden":false,"type":"heading"},{"content":{"text":"<p>Vivamus sagittis lacus vel augue laoreet rutrum faucibus dolor auctor. Cras justo odio, dapibus ac facilisis in, egestas eget quam.<\/p>"},"id":"f0b5088a-726d-4abb-8918-9535336f5391","isHidden":false,"type":"text"},{"content":{"level":"h2","text":"Another question?"},"id":"e0eb8915-8e81-4c40-b29a-0b9057efb3bf","isHidden":false,"type":"heading"},{"content":{"text":"<p>Vivamus sagittis lacus vel augue laoreet rutrum faucibus dolor auctor. Cras justo odio, dapibus ac facilisis in, egestas eget quam.<\/p>"},"id":"a124a5b9-6795-48c0-840c-a7f826093f31","isHidden":false,"type":"text"}]

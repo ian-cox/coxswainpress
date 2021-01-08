@@ -1,0 +1,36 @@
+Title: Lucky Cat
+
+----
+
+Type: Linoleum Block Print
+
+----
+
+Price: 45
+
+----
+
+Availability: true
+
+----
+
+Width: 8
+
+----
+
+Height: 8
+
+----
+
+Highlights:
+
+- 
+  highlight: Limited Edition of 30
+
+----
+
+Description:
+
+Two color, hand carved linoleum block print, printed on vintage Golding Platen Printing Press.
+
+Kanji roughly translates to "10 million gold coins" and is traditionally a coin that Lucky Cat statues are holding. They are meant to bring good fortune and luck to the owner.

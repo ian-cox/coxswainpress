@@ -1,0 +1,5 @@
+Title: Contact
+
+----
+
+Text: [{"content":{"level":"h1","text":"Get in touch"},"id":"ec2e417e-cb14-493a-9b90-f3feb312f6be","isHidden":false,"type":"heading"},{"content":{"text":"<p>Have a question about an item in the shop or want to commission a custom piece? Send me an email! I'm always happy to chat.<\/p>"},"id":"15debf4a-3f20-4b7c-9189-4af15f1086d7","isHidden":false,"type":"text"},{"content":{"text":"<ul><li><p><strong>Email:<\/strong>&nbsp;<a href=\"mailto:coxswainpress@gmail.com\" target=\"_blank\" rel=\"noopener noreferrer nofollow\">coxswainpress@gmail.com<\/a><\/p><\/li><li><p><strong>Instagram:<\/strong>&nbsp;<a href=\"https:\/\/www.instagram.com\/coxswainpress\/\" target=\"_blank\" rel=\"noopener noreferrer nofollow\">@coxswainpress<\/a><\/p><\/li><\/ul>"},"id":"39440af2-9ea3-4e39-b407-50de8e476db8","isHidden":false,"type":"list"}]

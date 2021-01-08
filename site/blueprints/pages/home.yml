@@ -1,0 +1,10 @@
+title: Home
+preset: page
+fields:
+  featured:
+    label: Featured Prints
+    type: pages
+    min: 4
+    max: 4
+    query: site.find('shop')
+    image: page.images.sort('sort').first

@@ -1,0 +1,79 @@
+title: Site
+unlisted: true
+files: true
+
+tabs:
+  content:
+    label: Pages
+    icon: page
+    preset: pages
+  seo:
+    label: Seo and Metadata
+    icon: search
+    fields:
+      siteDescription:
+        label: Site Description
+        type: textarea
+        maxlength: 70
+        buttons: false
+  footer:
+    label: Footer
+    icon: text
+    fields:
+      footerText:
+        label: Footer Text
+        type: text
+      links:
+        label: Footer Links
+        type: structure
+        columns:
+            icon:
+                width: 1/4
+            title:
+                width: 1/4
+            internal:
+                width: 1/4
+            external:
+                width: 1/4
+        fields:
+          icon:
+            width: 1/4
+            label: Icon
+            type: files
+            multiple: false
+            search: false
+            image:
+              cover: true
+              ratio: 1/1
+              back: white
+          title:
+            width: 1/4
+            label: Title
+            type: text
+            required: true
+          toggle:
+            width: 1/4
+            default: false
+            label: location
+            text: 
+              - "Internal Page"
+              - "External Link"
+          internal:
+            width: 1/4
+            label: Page
+            type: pages
+            multiple: false
+            required: true
+            when:
+              toggle: false
+          external:
+            width: 1/4
+            label: URL
+            type: url
+            required: true
+            when:
+              toggle: true
+  files:
+    label: Files
+    icon: image
+    preset: files

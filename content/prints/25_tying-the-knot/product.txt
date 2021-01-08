@@ -1,0 +1,32 @@
+Title: Tying the Knot
+
+----
+
+Type: Linoleum Block Print
+
+----
+
+Price: 45
+
+----
+
+Availability: true
+
+----
+
+Width: 6
+
+----
+
+Height: 7.5
+
+----
+
+Highlights:
+
+- 
+  highlight: Limited Edition of 30
+
+----
+
+Description: Hand carved reduction linoleum block print. Printed in two colors on vintage Vandercook Printing Press.

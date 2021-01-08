@@ -1,0 +1,48 @@
+/// Footer
+@use 'utility';
+
+footer{
+   display: flex;
+   flex-direction: column;
+   @include utility.breakpoint('medium'){
+      flex-direction: row;
+      justify-content: space-between;   
+   }
+   padding: 2em 0;
+   border-top: 1px solid #e4e4e4;
+   width: 90%;
+   margin: 6em auto 2em auto;
+   max-width: 1200px;
+   font-family: 'Work Sans', sans-serif;
+   p{
+      margin-bottom: 1em;
+      @include utility.breakpoint('medium'){
+         margin: 0;
+      }
+   }
+   a{
+      text-decoration: none;
+      color: #000;
+   }
+   ul{
+      margin: 0;
+      list-style: none;
+      padding: 0;
+      display: flex;
+      flex-wrap: wrap;
+      a{
+         display: flex;
+         align-items: center;
+         margin-bottom: 1em;
+         margin-right: 1em;
+         @include utility.breakpoint('medium'){
+            margin-right: 0;
+            margin-left: 2em;
+          }
+         img{
+            width: 16px;
+            margin-right: .25em;
+         }
+      }
+   }
+}

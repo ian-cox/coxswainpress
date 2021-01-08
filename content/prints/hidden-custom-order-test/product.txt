@@ -1,0 +1,29 @@
+Title: Hidden custom order test
+
+----
+
+Type: Linoleum Block Print
+
+----
+
+Price: 200
+
+----
+
+Availability: true
+
+----
+
+Width: 12
+
+----
+
+Height: 12
+
+----
+
+Highlights: 
+
+----
+
+Description: Custom hidden post.

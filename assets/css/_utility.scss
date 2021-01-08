@@ -1,0 +1,30 @@
+///Variables
+//// BREAKPOINTS
+
+$bp-x-small: 400px;
+$bp-small: 640px;
+$bp-medium: 900px;
+$bp-large: 1000px;
+$bp-x-large: 1600px;
+
+// Sass Breakpoint Mixin
+@mixin breakpoint($point) {
+   @if $point == x-small {
+       @media (min-width: $bp-x-small)  { @content; }
+   }
+   @else if $point == small {
+      @media (min-width: $bp-small) { @content; }
+   }
+   @else if $point == medium {
+      @media (min-width: $bp-medium) { @content; }
+   }
+   @else if $point == large {
+       @media (min-width: $bp-large) { @content; }
+   }
+   @else if $point == x-large {
+      @media (min-width: $bp-x-large) { @content; }
+   }
+   @else if $point { // allows custom breakpoints
+       @media (min-width: $point) { @content; }
+   }
+}

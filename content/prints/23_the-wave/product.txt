@@ -1,0 +1,32 @@
+Title: The Wave
+
+----
+
+Type: Linoleum Block Print
+
+----
+
+Price: 45
+
+----
+
+Availability: true
+
+----
+
+Width: 4.75
+
+----
+
+Height: 11.5
+
+----
+
+Highlights:
+
+- 
+  highlight: Limited Edition of 32
+
+----
+
+Description: Hand carved linoleum carving printed in two colors on a vintage Golding Jobber printing press.

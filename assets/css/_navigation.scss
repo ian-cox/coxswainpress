@@ -1,0 +1,152 @@
+/// NAVIGATION
+@use 'utility';
+
+.logo{
+   display: flex;
+   flex-direction: column;
+   font-family: 'Cormorant Garamond', serif;
+   color: #000;
+   text-decoration: none;
+   text-transform: uppercase;
+   font-weight: normal;
+   font-size: 22px;
+   letter-spacing: 0.15em;
+   margin-top: 2px;
+   text-align: center;
+   @include utility.breakpoint(medium){
+      margin-bottom: 8px;
+      font-size: 32px;
+   }
+   img{
+      width: 80px;
+      @include utility.breakpoint(medium){
+         width: 104px;
+      }
+      margin-bottom: 8px;
+      margin: 0 auto 8px;
+   }
+}
+
+
+.site-header{
+   display: flex;
+   padding: 16px 0 14px;
+   flex-direction: column;
+   width: 100%;
+   border-bottom: 1px solid #eee;
+   @include utility.breakpoint(small){
+      border-bottom: none;
+      padding: 2.5vw 0 32px;
+      .template-home &{
+         background: linear-gradient(180deg, rgba(237, 236, 232, 0.8) 33.33%, rgba(249, 248, 244, 0) 100%);   
+         position: absolute;
+         z-index: 5;
+      }
+   }
+   .banner{
+      width: 100%;
+      max-width: 90%;
+      margin: 0 auto;
+      display: flex;
+      justify-content: space-between;
+      align-items: flex-start;
+      @include utility.breakpoint(x-small){
+         align-items: center;
+      }
+   }
+   .cart-icon{
+      text-decoration: none;
+      color: #555;
+      display: flex;
+      font-family: 'Work Sans', sans-serif;
+   }
+   .cart-items-count{
+      width: 24px;
+      padding: 8px;
+   }
+
+   .close{
+      display: none;
+      .nav-active & {
+         display: block;
+      }
+      @include utility.breakpoint(small){
+         display: none;
+      }         
+   }
+
+   .nav-toggle{
+      @include utility.breakpoint(small){
+         opacity: 0;
+         pointer-events: none;
+      }
+   }
+
+   .hamburger{
+      .nav-active & {
+         display: none;
+      }
+      @include utility.breakpoint(small){
+         opacity: 0;
+         pointer-events: none;
+      }
+   }
+
+   .nav-active{
+      .hamburger{
+         display: none;
+      }
+      .close{
+         display: block;
+      }
+   }
+
+   nav{
+      display: none;
+      @include utility.breakpoint(small){
+         display: block;
+      }
+      .nav-active &{
+         display: block;
+      }
+      ul{
+         border-top: 1px solid #eee;
+         display: flex;
+         flex-direction: column;
+         justify-content: center;
+         width: 100%;
+         margin: 16px auto 0;
+         list-style: none;
+         font-size: 24px;
+         padding: 8px 5% 0;
+         @include utility.breakpoint(small){
+            font-family: 'Work Sans', sans-serif;
+            margin: 0 auto 0;
+            padding: 0 0 0;
+            border: none;
+            flex-direction: row;   
+            font-size: 14px;
+         }
+         a{
+            color:#000;
+            padding: 8px 0;
+            display: block;
+            text-decoration: none;
+            @include utility.breakpoint(small){
+               padding: 4px 8px;
+            }
+            @include utility.breakpoint(medium){
+               padding: 2px 14px;
+               font-size: 16px;
+            }
+            &:before{
+               content:"~";
+               color: #BFAA8F;
+               @include utility.breakpoint(small){
+                  content:none;
+               }
+            }
+         }
+      }
+   }
+}

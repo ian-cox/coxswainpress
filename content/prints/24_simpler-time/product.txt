@@ -1,0 +1,32 @@
+Title: Simpler Time
+
+----
+
+Type: Linoleum Block Print
+
+----
+
+Price: 55
+
+----
+
+Availability: true
+
+----
+
+Width: 6.625
+
+----
+
+Height: 7
+
+----
+
+Highlights:
+
+- 
+  highlight: Limited Edition of 12
+
+----
+
+Description: Hand carved reduction linoleum block print, printed on vintage Vandercook Printing Press. Printed using reduction printing process printed in 6 colors.

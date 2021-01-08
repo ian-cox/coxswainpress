@@ -1,0 +1,78 @@
+@use 'utility';
+
+.template-shop,.template-shopify\.products{
+   main{
+      width: 90%;
+      margin: 32px auto 0 auto;
+      max-width: 1200px;
+      display: grid;
+      grid-gap: 1em;
+      grid-template-columns: 1fr 1fr;
+      @include utility.breakpoint(small){
+         margin: 0px auto 0 auto;
+         grid-gap: 2em;
+         width: 80%;
+      }
+      @include utility.breakpoint(large){
+         grid-gap: 2em;
+         grid-template-columns: 1fr 1fr 1fr;
+      }
+      @include utility.breakpoint(large){
+         grid-gap: 2.5em;
+      }
+   }
+   .product{
+      width: 100%;
+      text-decoration: none;
+      color: #000;
+      justify-content: flex-end;
+      display: flex;
+      flex-direction: column;
+      margin-bottom: 1em;
+      .product-title{
+         font-family: Cardo, serif;
+         display: block;
+         margin-bottom: .25em;
+         font-size: 16px;
+         @include utility.breakpoint(small){
+            font-size: 20px;
+         }
+      }
+      .status{
+         font-size: 14px;
+         font-family: 'Work Sans', sans-serif;
+         background-color: #CA6C6C;
+         color: #fff;
+         font-weight: 500;
+         border-radius: 4px;
+         padding: 6px 8px;
+         display: inline-flex;
+         align-self: flex-start;
+      }
+      .price{
+         display: block;
+         font-family: 'Work Sans', sans-serif;
+         font-size: 14px;
+         font-weight: 600;
+         @include utility.breakpoint(small){
+            font-size: 20px;
+         }
+      }
+      img{
+         width: 100%;
+      }
+      .frame{
+         filter: drop-shadow(0px 1px 2px rgba(0, 0, 0, 0.4));
+         margin-bottom:.75em;
+         &.frame-active{
+            filter: none;
+            border: .8vw solid #000000;
+            box-shadow: -.6vw .5vw 1.2vw #C0B9B2, inset -12px 4px 5px rgba(0, 0, 0, 0.3);
+            @include utility.breakpoint(medium){
+               border: 6px solid #000000;
+               box-shadow: -7px 5px 10px #C0B9B2, inset -12px 4px 5px rgba(0, 0, 0, 0.3);
+            }
+         }
+      }
+   }
+}

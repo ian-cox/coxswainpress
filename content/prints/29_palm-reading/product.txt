@@ -1,0 +1,32 @@
+Title: Palm Reading
+
+----
+
+Type: Linoleum Block Print
+
+----
+
+Price: 45
+
+----
+
+Availability: true
+
+----
+
+Width: 8
+
+----
+
+Height: 10
+
+----
+
+Highlights:
+
+- 
+  highlight: Limited Edition of 23
+
+----
+
+Description: Hand carved linoleum block print, printed on vintage Golding Platen Printing Press.

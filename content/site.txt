@@ -1,0 +1,56 @@
+Title: Coxswain Press
+
+----
+
+Sitedescription: 
+
+----
+
+Testapikey: OGUyZGNjNTEtZDYzZC00NGM1LTliZDktYzZmNmEzMzZjYWRjNjM3NDQ2MzEzMTEzNTc0ODA3
+
+----
+
+Liveapikey: 
+
+----
+
+Footertext: © (date: year) Coxswain Press
+
+----
+
+Links:
+
+- 
+  icon:
+    - mail.svg
+  title: Contact
+  toggle: 'false'
+  internal:
+    - contact
+  external: ""
+- 
+  icon:
+    - help-circle.svg
+  title: FAQs
+  toggle: 'false'
+  internal:
+    - faq
+  external: ""
+- 
+  icon:
+    - instagram.svg
+  title: Instagram
+  toggle: 'true'
+  internal: [ ]
+  external: https://instagram.com/coxswainpress
+
+----
+
+Files:
+
+- mail.svg
+- instagram.svg
+
+----
+
+Products: - Dogs

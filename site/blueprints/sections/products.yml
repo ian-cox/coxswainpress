@@ -1,0 +1,8 @@
+type: pages
+headline: Products
+template: product
+info: "$ {{ page.price }} / {{ page.title }}"
+image:
+  src: page.images.first
+  ratio: 1/1
+  cover: true

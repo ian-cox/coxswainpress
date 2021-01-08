@@ -1,0 +1,51 @@
+title: Shop
+
+icon: 🛍
+
+columns:
+  left:
+    width: 3/4
+    sections:
+      drafts:
+        extends: sections/products
+        headline: Unpublished Products
+        status: draft
+        image:
+          query: page.images.sort("sort").first
+      listed:
+        extends: sections/products
+        headline: Published Products
+        status: listed
+        layout: cards
+        image:
+          query: page.images.sort("sort").first
+          ratio: 1/1
+          cover: true
+        info: ${{ page.price }}
+      unlisted:
+        extends: sections/products
+        headline: Hidden Products
+        status: unlisted
+        image:
+          query: page.images.sort("sort").first
+
+  right:
+    width: 1/4
+    sticky: true
+    sections:
+      fields:
+        fields:
+          frames:
+            label: Frames
+            type: toggle
+            default: true
+          products:
+            label: Product Categories
+            type: tags
+          highlights:
+            label: Global Product Highlights
+            type: structure
+            fields:
+              highlight:
+                label: Highlight
+                type: text

@@ -1,0 +1,55 @@
+Title: Garter Snake
+
+----
+
+Type: Linoleum Block Print
+
+----
+
+Price: 55
+
+----
+
+Availability: true
+
+----
+
+Width: 10
+
+----
+
+Height: 10
+
+----
+
+Highlights:
+
+- 
+  highlight: Limited edition of 20
+
+----
+
+Description: Hand carved linoleum block print, printed on vintage Vandercook Printing Press.
+
+----
+
+Gallery:
+
+- drying_rack.jpg
+- garter-snake-print.jpg
+- drying_rack2.jpg
+- duo.jpg
+- hero.jpg
+- ifixedit.jpg
+
+----
+
+Name: 
+
+----
+
+Status: true
+
+----
+
+Text: 

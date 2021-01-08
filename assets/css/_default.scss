@@ -1,0 +1,74 @@
+/// Default
+@use 'utility';
+
+.template-default{
+   main{
+      max-width: 720px;
+      margin: 0 auto;
+      width: 90%;
+      @include utility.breakpoint(x-small){
+         width: 80%;
+      }
+      p{
+         font-family: 'Work-Sans', sans-serif;
+      }
+      ul{
+         padding-left: 1.5em;
+      }
+      figure{
+         margin-block-start: 0;
+         margin-block-end: 0;
+         margin-inline-start: 0;
+         margin-inline-end: 0;
+         width: 110%;
+         margin: 1em -5%;
+         @include utility.breakpoint(medium){
+            width: 130%;
+            margin: 2em -15%;
+         }
+         ul{
+            padding: 0;
+            list-style: none;
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            grid-gap: 1em;
+         }
+      }
+      img{
+         width: 100%;
+      }
+      h1{
+         margin-top: 1em;
+         font-family: Cardo, serif;
+         margin-bottom: .125em;
+         font-size: 24px;
+         @include utility.breakpoint(medium){
+            font-size: 32px;
+         }
+      }
+      h2{
+         margin-top: 2em;
+         font-family: Cardo, serif;
+         margin-bottom: .25em;
+         font-size: 18px;
+         @include utility.breakpoint(medium){
+            font-size: 24px;
+         }
+      }
+      p{
+         font-family: Cardo, serif;
+         line-height: 1.8;
+         margin-bottom: 1em;
+         margin-top: 0;
+         font-size: 16px;
+         @include utility.breakpoint(medium){
+            font-size: 18px;
+         }
+      }
+      a{
+         text-decoration: none;
+         color: #000;
+         border-bottom: 2px solid #BFAA8F;
+      }
+   }
+}

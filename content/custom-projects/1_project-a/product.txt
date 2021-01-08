@@ -1,0 +1,29 @@
+Title: Test
+
+----
+
+Type: Card
+
+----
+
+Price: 30
+
+----
+
+Availability: true
+
+----
+
+Width: 4
+
+----
+
+Height: 6
+
+----
+
+Highlights: 
+
+----
+
+Description: Cool card
