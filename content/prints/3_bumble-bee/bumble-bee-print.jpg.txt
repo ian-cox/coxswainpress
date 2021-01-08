@@ -1,5 +1,0 @@
-Template: cover
-
-----
-
-Sort: 1

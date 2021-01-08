@@ -6,7 +6,27 @@ tabs:
   content:
     label: Pages
     icon: page
-    preset: pages
+    columns:
+      left:
+        sections:
+          drafts:
+            type: pages
+            headline: Drafts
+            headline: Unpublished Pages
+            status: draft
+            image:
+              query: page.images.sort("sort").first
+          listed:
+            type: pages
+            headline: Published Pages
+            status: listed
+            image:
+              query: page.images.sort("sort").first
+          unlisted:
+            type: pages
+            headline: Hidden Pages
+            status: unlisted
+
   seo:
     label: Seo and Metadata
     icon: search
