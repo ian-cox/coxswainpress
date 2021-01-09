@@ -29,6 +29,7 @@ class ShopifyProductsPage extends Page
                 'title'                       => $product['title'],
                 'shopifyTitle'                => $product['title'],
                 'shopifyID'                   => $product['id'],
+                'shopifyStatus'               => $product['status'],
                 'shopifyCreatedAt'            => $product['created_at'],
                 'shopifyUpdatedAt'            => $product['updated_at'],
                 'shopifyPublishedAt'          => $product['published_at'],
