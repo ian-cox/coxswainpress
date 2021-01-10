@@ -22,7 +22,7 @@
       <?php 
          foreach($page->featured()->toPages() as $product):?>
          <a class="product" href="<?= $product->url()?>">
-            <div class="frame frame-active">
+            <div class="frame<?php e($product->shopifyType() == "Linoleum Block Print",' frame-active')?>">
                <img src="<?= $product->shopifyFeaturedImage()->toStructure()->first()->src()->img_url('500x500')?>">
             </div>
             <span class="product-title"><?= $product->shopifyTitle() ?></span>
