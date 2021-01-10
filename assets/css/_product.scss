@@ -527,7 +527,10 @@
    display: flex;
    &:before{
       display: block;
-      margin-right: 13px;
+      margin-right: 6px;
+      @include utility.breakpoint(small){
+         margin-right: 13px;   
+      }
       content: "";
       width: 24px;
       height: 24px;
@@ -542,9 +545,13 @@
 .shopify-buy-frame--toggle:not(.is-sticky){
    position: absolute;
    z-index: 5;
-   top: 35px;
-   right: 5%;
+   top: 14px;
+   right: 3.5%;
    position: absolute;
+   @include utility.breakpoint(x-small){
+      top: 35px;
+      right: 4%;
+   }
    @include utility.breakpoint(medium){
       top: 58px;   
    }

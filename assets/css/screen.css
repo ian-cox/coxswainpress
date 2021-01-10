@@ -1067,12 +1067,17 @@ html.is-flickity-fullscreen {
 }
 .shopify-buy__cart-toggle__count:before {
   display: block;
-  margin-right: 13px;
+  margin-right: 6px;
   content: "";
   width: 24px;
   height: 24px;
   background-image: url("../img/bag.svg");
   background-size: contain;
+}
+@media (min-width: 640px) {
+  .shopify-buy__cart-toggle__count:before {
+    margin-right: 13px;
+  }
 }
 
 .shopify-buy--visually-hidden {
@@ -1082,9 +1087,15 @@ html.is-flickity-fullscreen {
 .shopify-buy-frame--toggle:not(.is-sticky) {
   position: absolute;
   z-index: 5;
-  top: 35px;
-  right: 5%;
+  top: 14px;
+  right: 3.5%;
   position: absolute;
+}
+@media (min-width: 400px) {
+  .shopify-buy-frame--toggle:not(.is-sticky) {
+    top: 35px;
+    right: 4%;
+  }
 }
 @media (min-width: 900px) {
   .shopify-buy-frame--toggle:not(.is-sticky) {
