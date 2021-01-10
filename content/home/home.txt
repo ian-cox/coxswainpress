@@ -2,9 +2,4 @@ Title: Home
 
 ----
 
-Featured:
-
-- shop/garter-snake
-- shop/crabapple
-- shop/hibiscus
-- shop/magnolia
+Featured: 
