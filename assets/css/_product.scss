@@ -322,11 +322,6 @@
  html.is-flickity-fullscreen {
       overflow: hidden;
  }
- 
- /* ---- flickity-fullscreen-button ---- */
-//  .flickity-button{
-//     display: block;
-//  }
 
  .flickity-fullscreen-button {
    display: block;
@@ -438,30 +433,6 @@
 
 }
 
-.shopify-buy__quantity{
-   // border-color: #d3dbe2;
-   // line-height: 1.2;
-   // font-size: 15px;
-   // height: auto;
-   // border-left: 1px solid;
-   // border-right: 1px solid;
-   // border-radius: 3px;
-   // color: black;
-   // font-size: 16px;
-   // border: none;
-   // text-align: center;
-   // -webkit-appearance: none;
-   // -moz-appearance: textfield;
-   // display: inline-block;
-   // border-radius: 0;
-   // border-top: 1px solid #767676;
-   // border-bottom: 1px solid #767676;
-   // margin: 0;
-   // box-sizing: border-box;
-   // padding: 13px 8px;
-   // margin-right: 1em;
-}
-
 .shopify-buy__btn-and-quantity{
 
    .shopify-buy__quantity-container {
@@ -553,9 +524,9 @@
       right: 4%;
    }
    @include utility.breakpoint(medium){
-      top: 58px;   
+      top: 48px;   
    }
    @include utility.breakpoint(large){
-      top: 4.6vw;   
+      top: 4.7vw;   
    }
 }

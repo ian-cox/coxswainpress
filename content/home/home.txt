@@ -2,4 +2,9 @@ Title: Home
 
 ----
 
-Featured: 
+Featured:
+
+- shop/garter-snake-1
+- shop/bumble-bee
+- shop/common-daisy
+- shop/dogwood

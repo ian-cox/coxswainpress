@@ -302,12 +302,17 @@ h2 {
 @media (min-width: 640px) {
   .site-header {
     border-bottom: none;
-    padding: 2.5vw 0 32px;
+    padding: 1.5vw 0 32px;
   }
   .template-home .site-header {
     background: linear-gradient(180deg, rgba(237, 236, 232, 0.8) 33.33%, rgba(249, 248, 244, 0) 100%);
     position: absolute;
     z-index: 5;
+  }
+}
+@media (min-width: 1600px) {
+  .site-header {
+    padding: 2.5vw 0 32px;
   }
 }
 .site-header .banner {
@@ -879,7 +884,6 @@ html.is-flickity-fullscreen {
   overflow: hidden;
 }
 
-/* ---- flickity-fullscreen-button ---- */
 .flickity-fullscreen-button {
   display: block;
   right: 10px;
@@ -1099,12 +1103,12 @@ html.is-flickity-fullscreen {
 }
 @media (min-width: 900px) {
   .shopify-buy-frame--toggle:not(.is-sticky) {
-    top: 58px;
+    top: 48px;
   }
 }
 @media (min-width: 1000px) {
   .shopify-buy-frame--toggle:not(.is-sticky) {
-    top: 4.6vw;
+    top: 4.7vw;
   }
 }
 

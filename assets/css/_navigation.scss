@@ -27,7 +27,6 @@
    }
 }
 
-
 .site-header{
    display: flex;
    padding: 16px 0 14px;
@@ -36,12 +35,15 @@
    border-bottom: 1px solid #eee;
    @include utility.breakpoint(small){
       border-bottom: none;
-      padding: 2.5vw 0 32px;
+      padding: 1.5vw 0 32px;
       .template-home &{
          background: linear-gradient(180deg, rgba(237, 236, 232, 0.8) 33.33%, rgba(249, 248, 244, 0) 100%);   
          position: absolute;
          z-index: 5;
       }
+   }
+   @include utility.breakpoint(x-large){
+      padding: 2.5vw 0 32px;
    }
    .banner{
       width: 100%;
