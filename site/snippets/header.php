@@ -1,9 +1,12 @@
 <html>
-<head>
-<meta name="viewport" content="width=device-width,initial-scale=1.0"/>
-<?= css('/assets/css/screen.css')?>
-<?php snippet('shopify-js') ?>
-</head>   
+
+<head prefix="og: https://ogp.me/ns#">
+   <meta charset="utf-8">
+   <meta name="viewport" content="width=device-width,initial-scale=1.0"/>
+   <?php snippet('meta') ?>
+   <?= css('/assets/css/screen.css')?>
+   <?php snippet('shopify-js') ?>
+</head>
 
 <body class="template-<?= $page->template() ?>">
 

@@ -2,15 +2,13 @@ Title: Coxswain Press
 
 ----
 
-Sitedescription: 
+Sitedescription: Coxswain Press is a boutique letterpress printing and book arts studio run by Taylor Cox in the Pacific Northwest.
 
 ----
 
-Testapikey: OGUyZGNjNTEtZDYzZC00NGM1LTliZDktYzZmNmEzMzZjYWRjNjM3NDQ2MzEzMTEzNTc0ODA3
+Socialimage:
 
-----
-
-Liveapikey: 
+- coxswainpress.jpg
 
 ----
 
@@ -43,6 +41,14 @@ Links:
   toggle: 'true'
   internal: [ ]
   external: https://instagram.com/coxswainpress
+
+----
+
+Testapikey: OGUyZGNjNTEtZDYzZC00NGM1LTliZDktYzZmNmEzMzZjYWRjNjM3NDQ2MzEzMTEzNTc0ODA3
+
+----
+
+Liveapikey: 
 
 ----
 
