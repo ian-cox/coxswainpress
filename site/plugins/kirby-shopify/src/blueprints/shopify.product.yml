@@ -94,7 +94,3 @@ sections:
         type: tags
         separator: ,
         disabled: true
-      shopifyStatus:
-        label: Status
-        type: text
-        disabled: true
