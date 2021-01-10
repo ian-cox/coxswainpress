@@ -34,8 +34,18 @@ tabs:
       siteDescription:
         label: Site Description
         type: textarea
-        maxlength: 70
+        maxlength: 140
         buttons: false
+      socialImage:
+        label: Social Preview Image
+        type: files
+        multiple: false
+        search: false
+        image:
+          cover: true
+          ratio: 1/1
+          back: white
+        
   footer:
     label: Footer
     icon: text
