@@ -55,3 +55,6 @@ AddOutputFilterByType DEFLATE application/json
 AddOutputFilterByType DEFLATE application/javascript
 AddOutputFilterByType DEFLATE application/x-javascript
 </IfModule>
+
+# Protect Git repo
+RedirectMatch 404 /\.git
