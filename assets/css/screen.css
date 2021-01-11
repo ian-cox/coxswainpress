@@ -504,7 +504,7 @@ h2 {
   }
 }
 
-.template-shop main, .template-shopify\.products main {
+.template-shop main, .template-shopify\.products main, .template-shopify\.collection main {
   width: 90%;
   margin: 32px auto 0 auto;
   max-width: 1200px;
@@ -513,24 +513,24 @@ h2 {
   grid-template-columns: 1fr 1fr;
 }
 @media (min-width: 640px) {
-  .template-shop main, .template-shopify\.products main {
+  .template-shop main, .template-shopify\.products main, .template-shopify\.collection main {
     margin: 0px auto 0 auto;
     grid-gap: 2em;
     width: 80%;
   }
 }
 @media (min-width: 1000px) {
-  .template-shop main, .template-shopify\.products main {
+  .template-shop main, .template-shopify\.products main, .template-shopify\.collection main {
     grid-gap: 2em;
     grid-template-columns: 1fr 1fr 1fr;
   }
 }
 @media (min-width: 1000px) {
-  .template-shop main, .template-shopify\.products main {
+  .template-shop main, .template-shopify\.products main, .template-shopify\.collection main {
     grid-gap: 2.5em;
   }
 }
-.template-shop .product, .template-shopify\.products .product {
+.template-shop .product, .template-shopify\.products .product, .template-shopify\.collection .product {
   width: 100%;
   text-decoration: none;
   color: #000;
@@ -539,18 +539,18 @@ h2 {
   flex-direction: column;
   margin-bottom: 1em;
 }
-.template-shop .product .product-title, .template-shopify\.products .product .product-title {
+.template-shop .product .product-title, .template-shopify\.products .product .product-title, .template-shopify\.collection .product .product-title {
   font-family: Cardo, serif;
   display: block;
   margin-bottom: 0.25em;
   font-size: 16px;
 }
 @media (min-width: 640px) {
-  .template-shop .product .product-title, .template-shopify\.products .product .product-title {
+  .template-shop .product .product-title, .template-shopify\.products .product .product-title, .template-shopify\.collection .product .product-title {
     font-size: 20px;
   }
 }
-.template-shop .product .status, .template-shopify\.products .product .status {
+.template-shop .product .status, .template-shopify\.products .product .status, .template-shopify\.collection .product .status {
   font-size: 14px;
   font-family: "Work Sans", sans-serif;
   background-color: #CA6C6C;
@@ -561,31 +561,31 @@ h2 {
   display: inline-flex;
   align-self: flex-start;
 }
-.template-shop .product .price, .template-shopify\.products .product .price {
+.template-shop .product .price, .template-shopify\.products .product .price, .template-shopify\.collection .product .price {
   display: block;
   font-family: "Work Sans", sans-serif;
   font-size: 14px;
   font-weight: 600;
 }
 @media (min-width: 640px) {
-  .template-shop .product .price, .template-shopify\.products .product .price {
+  .template-shop .product .price, .template-shopify\.products .product .price, .template-shopify\.collection .product .price {
     font-size: 20px;
   }
 }
-.template-shop .product img, .template-shopify\.products .product img {
+.template-shop .product img, .template-shopify\.products .product img, .template-shopify\.collection .product img {
   width: 100%;
 }
-.template-shop .product .frame, .template-shopify\.products .product .frame {
+.template-shop .product .frame, .template-shopify\.products .product .frame, .template-shopify\.collection .product .frame {
   filter: drop-shadow(0px 1px 2px rgba(0, 0, 0, 0.4));
   margin-bottom: 0.75em;
 }
-.template-shop .product .frame.frame-active, .template-shopify\.products .product .frame.frame-active {
+.template-shop .product .frame.frame-active, .template-shopify\.products .product .frame.frame-active, .template-shopify\.collection .product .frame.frame-active {
   filter: none;
   border: 0.8vw solid #000000;
   box-shadow: -0.6vw 0.5vw 1.2vw #C0B9B2, inset -12px 4px 5px rgba(0, 0, 0, 0.3);
 }
 @media (min-width: 900px) {
-  .template-shop .product .frame.frame-active, .template-shopify\.products .product .frame.frame-active {
+  .template-shop .product .frame.frame-active, .template-shopify\.products .product .frame.frame-active, .template-shopify\.collection .product .frame.frame-active {
     border: 6px solid #000000;
     box-shadow: -7px 5px 10px #C0B9B2, inset -12px 4px 5px rgba(0, 0, 0, 0.3);
   }
