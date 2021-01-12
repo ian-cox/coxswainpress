@@ -48,7 +48,14 @@ Links:
   external: ""
 - 
   icon:
-    - instagram.svg
+    - zuckerbook.svg
+  title: Facebook
+  toggle: 'true'
+  internal: [ ]
+  external: https://facebook.com/coxswainpress
+- 
+  icon:
+    - insta.svg
   title: Instagram
   toggle: 'true'
   internal: [ ]
