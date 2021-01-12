@@ -251,6 +251,7 @@ https://flickity.metafizzy.co
 }
 
 body {
+  overflow-y: scroll;
   display: flex;
   flex-direction: column;
 }

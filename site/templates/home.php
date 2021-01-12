@@ -17,7 +17,7 @@
 
 
 <div class="pivot">
-   <h3 class="pivot-title">Featured Prints</h3>
+   <h3 class="pivot-title">Featured Products</h3>
    <div class="grid">
       <?php 
          foreach($page->featured()->toPages() as $product):?>

@@ -12,6 +12,18 @@ Socialimage:
 
 ----
 
+Faviconsvg:
+
+- favicon.svg
+
+----
+
+Favicon:
+
+- favicon.png
+
+----
+
 Footertext: © (date: year) Coxswain Press
 
 ----
@@ -41,6 +53,20 @@ Links:
   toggle: 'true'
   internal: [ ]
   external: https://instagram.com/coxswainpress
+
+----
+
+Categories:
+
+- 
+  title: Prints
+  categories: Linoleum Block Print
+- 
+  title: Cards
+  categories: Greeting Card
+- 
+  title: Other
+  categories: Sticker
 
 ----
 

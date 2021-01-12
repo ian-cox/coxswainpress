@@ -5,6 +5,6 @@ Title: Home
 Featured:
 
 - shop/garter-snake-1
-- shop/bumble-bee
+- shop/polyphemus-moth-1
 - shop/common-daisy
-- shop/dogwood
+- shop/sunflower

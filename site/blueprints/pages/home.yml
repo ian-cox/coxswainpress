@@ -1,8 +1,9 @@
 title: Home
 preset: page
+pages: false
 fields:
   featured:
-    label: Featured Prints
+    label: Featured Products
     type: pages
     min: 4
     max: 4

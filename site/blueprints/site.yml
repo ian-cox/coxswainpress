@@ -11,6 +11,9 @@ tabs:
         sections:
           drafts:
             type: pages
+            templates:
+              - default
+              - shop
             headline: Drafts
             headline: Unpublished Pages
             status: draft
@@ -38,6 +41,24 @@ tabs:
         buttons: false
       socialImage:
         label: Social Preview Image
+        type: files
+        multiple: false
+        search: false
+        image:
+          cover: true
+          ratio: 1/1
+          back: white
+      faviconSVG:
+        label: Favicon SVG
+        type: files
+        multiple: false
+        search: false
+        image:
+          cover: true
+          ratio: 1/1
+          back: white
+      favicon:
+        label: Favicon PNG
         type: files
         multiple: false
         search: false
